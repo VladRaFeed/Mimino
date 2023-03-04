@@ -5,9 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MIMINO ROOMS</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;700;800;900&family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles.css/style.css" />
   </head>
   <body>
     <header>
+      <div class="container">
       <a href="./index.html">MIMINO</a>
       <nav>
         <ul>
@@ -18,19 +36,20 @@
         </ul>
       </nav>
       <a href="#">BOOK NOW</a>
-    </header>
+    </header></div>
     <main>
       <!-- First section -->
       <section>
-        <div>
+        <div class="container">
           <p>Hotel and restaurant complex</p>
-          <svg><use></use></svg>
+          <svg><use href="./images/symbol-defs.svg#icon-mimino"></use></svg>
+          <h1>HOTEL</h1>
         </div>
-        <h1>HOTEL</h1>
       </section>
 
       <!-- Second page second section -->
       <section>
+        <div class="container">
         <div>
           <p>
             Hotel "Mimino" provides eight comfortable rooms with cable
@@ -38,7 +57,7 @@
             communication. You can book a table in the restaurant for yourself
             or your friends or create an order directly to your room.
           </p>
-          <img src="" alt="women-is-chiling" />
+          <img src="./images/kaif-img.jpg" alt="women-is-chiling" />
         </div>
         <div>
           <ul>
@@ -68,9 +87,11 @@
             </li>
           </ul>
         </div>
+        </div>
       </section>
     </main>
     <footer>
+      <div class="container">
       <a href="">MIMINO</a>
       <ul>
         <li><a href="./index.html">HOME</a></li>
@@ -83,7 +104,7 @@
       </a>
       <a href="">
         <svg><use></use></svg>
-      </a>
+      </a></div>
     </footer>
   </body>
 </html>
