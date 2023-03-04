@@ -73,6 +73,10 @@ img {
   /* margin-bottom: 64px; */
 }
 
+.rooms-section {
+  margin-top: 64px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
