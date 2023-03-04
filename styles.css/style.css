@@ -11,6 +11,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   margin: 0;
+  background-color: #191F21;
 }
 
 h1 {
@@ -64,9 +65,10 @@ img {
 /* container */
 
 .container {
-  width: 1250px;
+  width: 1280px;
   padding: 0 15px;
   margin: 0 auto;
+  /* margin-bottom: 64px; */
 }
 
 .visually-hidden {
@@ -82,3 +84,305 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section {
+  margin-top: 64px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+/* CHILL BOX */
+
+.chill-box {
+  margin-bottom: 64px;
+  display: flex;
+  text-align: left;
+  background-color: #272D2F;
+  align-items: center;
+}
+
+.text-box {
+    padding-right: 136px;
+  padding-left: 136px;
+}
+
+/* main text */
+.main-text {
+  display: flex;
+  color: var(--main-text-color);
+  height: 100%;
+
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+
+  /* padding-left: 140px;
+  padding-bottom: 184px;
+
+  padding-right: 140px;
+  padding-top: 170px; */
+
+
+    /* align-items: center;
+    justify-content: center; */
+
+
+    /* padding-top: 177px;
+    padding-bottom: 177px;
+    padding-right: 136px;
+    padding-left: 136px; */
+
+
+
+}
+
+.kaif-pcr {
+  width: 630px;
+  height: 550px;
+
+  filter: drop-shadow(-277px 143px 125px rgba(0, 0, 0, 0.01)) drop-shadow(-156px 80px 105px rgba(0, 0, 0, 0.05)) drop-shadow(-69px 36px 78px rgba(0, 0, 0, 0.09)) drop-shadow(-17px 9px 43px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+}
+
+/* rooms title */
+.rooms-title {
+  color: var(--main-white-color);
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+  padding-left: 36px;
+  padding-bottom: 36px;
+}
+
+/* boxes in rooms page */
+
+.li-box:not(:last-child) {
+  padding-bottom: 32px;
+}
+
+.li-box {
+
+}
+
+.box {
+  height: 349px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.box-1 {
+  background-image: url(../images/bd1.jpg);
+}
+
+.box-2 {
+  background-image: url(../images/bd2.jpg);
+}
+
+.box-3 {
+  background-image: url(../images/bd3.jpg);
+}
+
+.box-4 {
+  background-image: url(../images/bd4.jpg);
+}
+
+/* LOOK MORE */
+
+.button-lookmore {
+  display: block;
+  width: 242px;
+  height: 67px;
+  background-color: var(--brand-color);
+  padding: 22px 62px;
+  text-align: center;
+  color: var(--main-black-color);
+
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+
+  margin-right: 36px;
+  margin-bottom: 36px;
+
+  transition: background-color 250ms cubic-bezier(.93,.06,.6,.49), color 250ms cubic-bezier(.93,.06,.6,.49), outline 250ms cubic-bezier(.93,.06,.6,.49);
+}
+
+.button-lookmore:hover,
+.button-lookmore:focus {
+  color: var(--brand-color);
+  background-color: rgba(0, 0, 0, 0);
+  outline: 3px solid var(--brand-color);
+}
+
+.
