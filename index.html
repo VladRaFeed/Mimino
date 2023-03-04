@@ -24,27 +24,31 @@
     <link rel="stylesheet" href="./styles.css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <a href="./index.html">MIMINO</a>
+    <header class="header">
+      <div class="main-nav container">
+        <a href="./index.html" class="logo-link">MIMINO</a>
         <nav>
-          <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">RESTARAUNT</a></li>
-            <li><a href="./rooms.html">HOTEL</a></li>
-            <li><a href="#">REVIEWS</a></li>
+          <ul class="nav-menu">
+            <li><a href="#" class="nav-links">HOME</a></li>
+            <li><a href="#" class="nav-links">RESTARAUNT</a></li>
+            <li><a href="./rooms.html" class="nav-links">HOTEL</a></li>
+            <li><a href="#" class="nav-links">REVIEWS</a></li>
           </ul>
         </nav>
-        <a href="#">BOOK NOW</a>
+        <a href="#" class="light-button">BOOK NOW</a>
       </div>
     </header>
     <main>
       <!-- First section -->
-      <section>
+      <section class="hero-section">
         <div class="container">
-          <p>Hotel and restaurant complex</p>
-          <svg><use href="./images/symbol-defs.svg#icon-mimino"></use></svg>
-          <h1>HOME</h1>
+          <div class="hero-wrapper">
+            <p class="hero-top-title">Hotel and restaurant complex</p>
+            <svg width="455" height="80">
+              <use href="./images/symbol-defs.svg#icon-mimino"></use>
+            </svg>
+          </div>
+          <h1 class="hero-under-title">HOME</h1>
         </div>
       </section>
 
