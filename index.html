@@ -5,65 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MIMINO</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;700;800;900&family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles.css/style.css" />
   </head>
   <body>
     <header>
-      <a href="./index.html">MIMINO</a>
-      <nav>
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">RESTARAUNT</a></li>
-          <li><a href="./rooms.html">HOTEL</a></li>
-          <li><a href="#">REVIEWS</a></li>
-        </ul>
-      </nav>
-      <a href="#">BOOK NOW</a>
+      <div class="container">
+        <a href="./index.html">MIMINO</a>
+        <nav>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">RESTARAUNT</a></li>
+            <li><a href="./rooms.html">HOTEL</a></li>
+            <li><a href="#">REVIEWS</a></li>
+          </ul>
+        </nav>
+        <a href="#">BOOK NOW</a>
+      </div>
     </header>
     <main>
-
       <!-- First section -->
       <section>
-        <div>
+        <div class="container">
           <p>Hotel and restaurant complex</p>
-          <svg><use></use></svg>
+          <svg><use href="./images/symbol-defs.svg#icon-mimino"></use></svg>
+          <h1>HOME</h1>
         </div>
-        <h1>HOME</h1>
       </section>
 
       <!-- Second section -->
       <section>
-        <img src="" alt="restaurant">
-        <div>
-          <h2>About Us</h2>
-          <p>Restaurant "Mimino", opened in 2000, will pleasantly surprise you with exquisite dishes of Georgian and European cuisine. Luxurious halls, beautifully served tables, a wide selection of dishes, attentive service and a cozy atmosphere will do</p>
+        <div class="container">
+          <img src="./images/about-img.jpg" alt="restaurant" />
+          <div>
+            <h2>About Us</h2>
+            <p>
+              Restaurant "Mimino", opened in 2000, will pleasantly surprise you
+              with exquisite dishes of Georgian and European cuisine. Luxurious
+              halls, beautifully served tables, a wide selection of dishes,
+              attentive service and a cozy atmosphere will do
+            </p>
+          </div>
+          <div>
+            <p>
+              In 2009, a small hotel was opened for guests of our city at the
+              "Mimino" restaurant, where you can rest comfortably in
+              European-level rooms, enjoying silence and professional service.
+              Hotel "Mimino" provides eight comfortable rooms with satellite TV,
+              WI-FI Internet, air conditioners, telephones with direct access to
+              city communication.
+            </p>
+          </div>
+          <img src="./images/about-img2.jpg" alt="scenery" />
         </div>
-        <div>
-          <p>   In 2009, a small hotel was opened for guests of our city at the "Mimino" restaurant, where you can rest comfortably in European-level rooms, enjoying silence and professional service.
-          Hotel "Mimino" provides eight comfortable rooms with satellite TV, WI-FI Internet, air conditioners, telephones with direct access to city communication.
-       </p>
-      </div>
-      <img src="" alt="scenery">
       </section>
 
       <!-- Third section -->
       <section>
-        <div>
-        <h2>GALARY</h>
+        <div class="container">
+          <h2>GALARY</h2>
           <div>
             <div>
-            <img src="" alt="bedroom">
-            <p>Lorem ipsum dolor sit amet consectetur. Viverra nunc commodo et nisl accumsan id. Ullamcorper lectus egestas molestie sagittis amet praesent tincidunt lacus.</p>
-            <img src="" alt="bigroom"></div>
+              <img src="./images/galary-img.jpg" alt="bedroom" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Viverra nunc commodo et
+                nisl accumsan id. Ullamcorper lectus egestas molestie sagittis
+                amet praesent tincidunt lacus.
+              </p>
+              <img src="./images/galary-img2.jpg" alt="bigroom" />
+            </div>
             <div>
-            <p>Lorem ipsum dolor sit amet consectetur. Viverra nunc commodo et nisl accumsan id. Ullamcorper lectus egestas molestie sagittis amet praesent tincidunt lacus.</p>
-            <img src="" alt="reception"></div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Viverra nunc commodo et
+                nisl accumsan id. Ullamcorper lectus egestas molestie sagittis
+                amet praesent tincidunt lacus.
+              </p>
+              <img src="./images/galary-img3.jpg" alt="reception" />
+            </div>
           </div>
         </div>
       </section>
 
       <!-- Fourt section -->
       <section>
-        <div>
+        <div class="container">
           <h2>CONTACTS</h2>
           <!-- map + adress -->
           <div>
@@ -74,24 +114,25 @@
                 <ul>
                   <li>
                     <div>
-                  <h3>Contacts</h3>
-                  <address>Україна, м. Полтава,вул. Маршала Бірюзова, 15</address>
+                      <h3>Contacts</h3>
+                      <address>
+                        Україна, м. Полтава,вул. Маршала Бірюзова, 15
+                      </address>
                     </div>
                   </li>
                   <li>
                     <div>
-                  <h3>Restaraunt</h3>
-                <p>Адміністратор: 095 555 9533 Факс: 0532 509 883</p>
+                      <h3>Restaraunt</h3>
+                      <p>Адміністратор: 095 555 9533 Факс: 0532 509 883</p>
                     </div>
                   </li>
                   <li>
                     <div>
-                  <h3>Hotel</h3>
-                  <p>Адміністратор:
-                    066 849 10 89 
-                    067 275 85 40
-                    Факс: 0532 509 897
-                    </p>
+                      <h3>Hotel</h3>
+                      <p>
+                        Адміністратор: 066 849 10 89 067 275 85 40 Факс: 0532
+                        509 897
+                      </p>
                     </div>
                   </li>
                 </ul>
@@ -102,19 +143,23 @@
       </section>
     </main>
     <footer>
-      <a href="">MIMINO</a>
-      <ul>
-        <li><a href="">HOME</a></li>
-        <li><a href="">RESTARAUNT</a></li>
-        <li><a href="./rooms.html">HOTEL</a></li>
-        <li><a href="">REVIEWS</a></li>
-      </ul>
-      <a href="">INST
-        <svg><use></use></svg>
-      </a>
-      <a href="">FB
-        <svg><use></use></svg>
-      </a>
+      <div class="container">
+        <a href="">MIMINO</a>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">RESTARAUNT</a></li>
+          <li><a href="./rooms.html">HOTEL</a></li>
+          <li><a href="">REVIEWS</a></li>
+        </ul>
+        <a href=""
+          >INST
+          <svg><use></use></svg>
+        </a>
+        <a href=""
+          >FB
+          <svg><use></use></svg>
+        </a>
+      </div>
     </footer>
   </body>
 </html>
